@@ -1,11 +1,3 @@
-# fly.toml app configuration file for deepgram-java-flux-tts
-#
-# See https://fly.io/docs/reference/configuration/ for details.
-#
-# NOTE: This deploys the backend service only. Once the frontend submodule
-# (flux-tts-html) exists, switch to the Caddy + frontend multi-stage build used
-# by the java-flux starter and set internal_port = 8080.
-
 app = 'deepgram-java-flux-tts'
 primary_region = 'iad'
 
@@ -13,7 +5,7 @@ primary_region = 'iad'
   dockerfile = "deploy/Dockerfile"
 
 [http_service]
-  internal_port = 8081
+  internal_port = 8080
   force_https = true
   auto_stop_machines = 'stop'
   auto_start_machines = true

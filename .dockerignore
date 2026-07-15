@@ -1,0 +1,6 @@
+.git
+.env
+target
+frontend/node_modules
+frontend/.vite
+contracts
