@@ -1,0 +1,32 @@
+# Maven build output
+target/
+dependency-reduced-pom.xml
+
+# Environment variables
+.env
+.env.local
+
+# Frontend (submodule) build artifacts
+frontend/node_modules/
+frontend/dist/
+
+# Logs
+*.log
+
+# Editor directories
+.vscode/
+.idea/
+*.iml
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Testing
+test-results/
+
+# Local Deepgram working directory
+.deepgram/
