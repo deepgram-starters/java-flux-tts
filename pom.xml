@@ -17,7 +17,7 @@
         <maven.compiler.target>21</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <!-- Deepgram Java SDK providing client.speak().v2() streaming TTS. -->
-        <deepgram.sdk.version>0.6.1</deepgram.sdk.version>
+        <deepgram.sdk.version>0.7.1</deepgram.sdk.version>
     </properties>
 
     <dependencies>
